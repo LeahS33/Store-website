@@ -1,0 +1,19 @@
+#prod {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 50px;
+    margin: 10px 0;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#iconDiv {
+    display: flex;
+    justify-content: center;
+}
+
