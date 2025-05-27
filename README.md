@@ -1,12 +1,51 @@
-# React + Vite
+# Kitchen Accessories Store
+This is a React + Vite project for an online kitchen accessories store. The application allows users to browse products, add them to a cart, and complete their order with optional home delivery.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
+- Browse kitchen accessories products fetched from an external API
+- Add products to a shopping cart
+- Adjust product quantities in the cart
+- Optional home delivery with additional cost
+- Order confirmation popup
+- Error handling for failed API requests
+- Responsive and modern UI
 
-Currently, two official plugins are available:
+## Tech Stack
+- [React](https://react.dev/)
+- [Redux Toolkit](https://redux-toolkit.js.org/)
+- [React Router](https://reactrouter.com/)
+- [Vite](https://vitejs.dev/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Getting Started
+1. **Install dependencies:**
+    npm install
 
-## Expanding the ESLint configuration
+2. **Start the development server:**
+   npm run dev
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3. **Build for production:**
+   npm run build
+
+4. **Preview the production build:**
+   npm run preview
+
+## Project Structure
+src/
+  api.js
+  App.jsx
+  main.jsx
+  redux/
+  components/
+    Products/
+    Product/
+    Cart/
+    Popup/
+    About/
+    Error.jsx
+  assets/
+public/
+index.html
+vite.config.js
+
+## License
+This project is for educational purposes.
